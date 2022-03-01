@@ -9,9 +9,6 @@ let App = () => {
       <Header />
       <Navbar />
       <Profile />
-      <div>aaaaaaaa</div>
-      <div>test 2gi</div>
-      <div>div</div>
     </div>
   );
 };
