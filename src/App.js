@@ -10,6 +10,7 @@ let App = () => {
       <Navbar />
       <Profile />
       <div>aaaaaaaa</div>
+        <div>test 2gi</div>
     </div>
   );
 };
