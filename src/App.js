@@ -10,7 +10,8 @@ let App = () => {
       <Navbar />
       <Profile />
       <div>aaaaaaaa</div>
-        <div>test 2gi</div>
+      <div>test 2gi</div>
+      <div>div</div>
     </div>
   );
 };
