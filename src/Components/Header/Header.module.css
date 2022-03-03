@@ -1,0 +1,14 @@
+.borderShadow{
+    border: 3px solid rgba(87, 76, 10, 0.15);
+    box-shadow: 1px 1px 5px #24a800;
+    margin: 2px;
+}
+
+/*header start*/
+.header{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.logo{
+    width: 30px;
+}

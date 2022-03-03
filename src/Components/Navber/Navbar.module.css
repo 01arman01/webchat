@@ -1,0 +1,27 @@
+.borderShadow{
+    border: 3px solid rgba(87, 76, 10, 0.15);
+    box-shadow: 1px 1px 5px #24a800;
+    margin: 2px;
+}
+
+.navbar{
+    width: 20%;
+    padding: 10px 0;
+    margin: 0 10px 0 0;
+}
+.link>a{
+    display: block;
+    text-decoration: none;
+    background-color: rgba(36, 168, 0, 0);
+
+}
+.link{
+    margin: 5px 0;
+    text-align: center;
+    width: 100%;
+
+}
+.link>a:hover{
+    background-color: rgba(81, 229, 40, 0.43);
+    color: white;
+}

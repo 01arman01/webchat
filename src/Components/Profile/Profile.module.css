@@ -1,0 +1,35 @@
+.borderShadow{
+    border: 3px solid rgba(87, 76, 10, 0.15);
+    box-shadow: 1px 1px 5px #24a800;
+    margin: 2px;
+}
+
+.content{
+    width: 78%;
+}
+.oblojka{
+    height: 150px;
+    overflow: hidden;
+}
+.oblojka>img{
+    width: 100%;
+}
+
+
+.user{
+    display: flex;
+}
+.avatar{
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+}
+.avatar>img{
+    width: 200px;
+}
+.user_info{
+    padding: 20px;
+}
+.user_info_content{
+    margin-top: 20px;
+}

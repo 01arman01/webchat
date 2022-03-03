@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navber/Navbar";
@@ -12,5 +11,4 @@ let App = () => {
     </div>
   );
 };
-
 export default App;
