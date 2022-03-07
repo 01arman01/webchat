@@ -1,7 +1,7 @@
 import react from 'react'
 import s from './Profile.module.css'
 import classNames from "classnames";
-
+import MyPosts from './MyPosts/MyPosts';
 const Profile = ()=>{
     return(
         <main className={classNames(s.content,s.borderShadow)}>
@@ -9,7 +9,7 @@ const Profile = ()=>{
 
             <div className={s.user}>
                 <div className={classNames(s.avatar,s.borderShadow)}>
-                    <img src="https://img1.akspic.ru/previews/9/9/6/1/5/151699/151699-svet-glaz-zdanie-lico-haker-360x640.jpg"/>
+                    <img src="https://png.pngtree.com/png-clipart/20210725/original/pngtree-light-effect-hacker-game-icon-png-image_6566754.jpg"/>
                 </div>
                 <div className={s.user_info}>
                     <h1>Arman Z. Papyan</h1>
@@ -20,16 +20,7 @@ const Profile = ()=>{
                     </div>
                 </div>
             </div>
-            <div>
-                My posts
-                <div>
-                    new posts
-                </div>
-            </div>
-            <div>
-                <div>post 1</div>
-                <div>post 2</div>
-            </div>
+             <MyPosts/>
 
         </main>
     )

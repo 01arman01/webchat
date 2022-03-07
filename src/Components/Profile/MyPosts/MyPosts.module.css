@@ -1,0 +1,16 @@
+.mayposts{
+    margin: 10px 0;
+}
+
+.newPost{
+    width:70%;
+    font-size: 16px;
+    border:1px solid #24a800;
+    padding: 0.5rem 0.2rem;
+
+}
+.add_button{
+    background-color: #000000;
+    font-size: 16px;
+    padding: 0.5rem 0.2rem;
+}
